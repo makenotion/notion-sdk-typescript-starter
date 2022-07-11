@@ -1,20 +1,27 @@
 {
-  "name": "notion-sdk-typescript-starter",
+  "name": "fixme-your-notion-app",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "dist/index.js",
+  "private": true,
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/makenotion/notion-sdk-typescript-starter.git"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "ts-node src/index.ts",
+    "typecheck": "tsc --noEmit",
+    "build": "tsc",
+    "format": "prettier --write src/**/*.ts"
   },
   "keywords": [],
   "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/makenotion/notion-sdk-typescript-starter/issues"
+  "dependencies": {
+    "@notionhq/client": "^2.0.0",
+    "dotenv": "^16.0.1"
   },
-  "homepage": "https://github.com/makenotion/notion-sdk-typescript-starter#readme"
+  "devDependencies": {
+    "@types/dotenv": "^8.2.0",
+    "@types/node": "^18.0.3",
+    "prettier": "^2.7.1",
+    "ts-node": "^10.8.2",
+    "typescript": "^4.7.4"
+  }
 }
