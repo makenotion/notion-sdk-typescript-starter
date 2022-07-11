@@ -10,7 +10,7 @@ env:
   NODE_VERSION: 16.x
 
 jobs:
-  build-and-test:
+  typecheck:
     runs-on: ubuntu-latest
 
     steps:
