@@ -25,3 +25,14 @@ GitHub will create a new clone under your account, and then you can get started 
 5. Run `npm start` to run the script.
 
 Now you can head over to our [developer documentation](https://developers.notion.com/) for more information on using the Notion API!
+
+## NPM Scripts
+
+This template has a few built-in NPM scripts:
+
+| Script              | Action                                                                                                                                                                          |
+| - | - |
+| `npm start`         | Run `index.ts`.                                                                                                                                                                 |
+| `npm run typecheck` | Type check using the TypeScript compiler.                                                                                                                                       |
+| `npm run format`    | Format using Prettier (also recommended: the [Prettier VS Code extension](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode) if you're using VS code.) |
+| `npm run build`     | Build JavaScript into the `dist/` directory. You normally shouldn't need this if you're using `npm start`.                                                                      |
