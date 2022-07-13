@@ -8,11 +8,11 @@ async function main() {
     auth: process.env.NOTION_TOKEN,
   });
 
-  const page = await notion.pages.retrieve({
-    page_id: "FIXME",
+  const response = await notion.databases.query({
+    database_id: "FIXME",
   });
 
-  console.log("Got page:", page);
+  console.log("Got response:", response);
 }
 
 main()

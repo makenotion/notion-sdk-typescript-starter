@@ -21,7 +21,7 @@ GitHub will create a new clone under your account, and then you can get started 
 1. Make sure you've [created a Notion integration](https://developers.notion.com/docs/getting-started) and have a secret Notion token.
 2. Add your Notion token to a `.env` file at the root of this repository: `echo "NOTION_TOKEN=[your token here]" > .env`.
 3. Run `npm install`.
-4. Edit the `page_id` in `index.ts` from FIXME to be any page currently shared with your integration.
+4. Edit the `database_id` in `index.ts` from FIXME to be any database currently shared with your integration.
 5. Run `npm start` to run the script.
 
 Now you can head over to our [developer documentation](https://developers.notion.com/) for more information on using the Notion API!
